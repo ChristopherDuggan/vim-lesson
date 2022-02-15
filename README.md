@@ -67,4 +67,25 @@ Here's what we're going to do:
 - Save our changes from the buffer to the file (`:w`)
 - Exit Vim (`:q`)
 
+
 ## Moving around in a file
+
+The most obvious way to navigate in Vim is to use the arrow keys in `INSERT` mode. This is also the worst way to do it! I encourage you *not* to use the arrow keys.
+
+Instead, while in `NORMAL` mode:
+- Use `j` and `k` to move up and down a line
+- Use `h` and `l` to move left and right
+- Use `w` and `b` to go forwards and backwards one word at a time.
+- Use `yy` and `p` to copy and paste line
+- Use `dd` and `p` to cut and paste a line
+
+Pressing `i` takes you to `INSERT` mode, but there are other ways:
+- `A` to insert at the very end of the current line
+- `I` to insert at the very beginning
+- `o` inserts a new line *below* the cursor
+- `O` inserts a new line *above*
+
+Finally, for deleting:
+- `x` to remove the current letter
+- `dw` to delete a word, `cw` to 'change' a word
+- `D` to delete to the end of the line
