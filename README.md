@@ -12,7 +12,7 @@ Why?
   - Uses a fraction of computer resources compared to all major IDEs
   - Free & open-source with a ton of active development, including plugins
   - You will run into Vim eventually (see: https://stackoverflow.com/questions/11828270/how-do-i-exit-the-vim-editor)
-  - It is already isnstalled on everything but Windows
+  - It is already installed on everything but Windows
   - Uses conventions shared by many other programs (even Twitter and Gmail!)
   - *Wildly, insanely efficient and customizable*
 
